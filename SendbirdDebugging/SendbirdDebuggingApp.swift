@@ -11,7 +11,10 @@ import SwiftUI
 struct SendbirdDebuggingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel = ChatListViewModel()
+            let coordinator = ChatListCoordinator(viewModel: viewModel)
+
+            coordinator.start()
         }
     }
 }

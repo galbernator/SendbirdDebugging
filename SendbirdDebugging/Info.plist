@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COACH_CHAT_CHANNEL_URL</key>
+	<string>$(COACH_CHAT_CHANNEL_URL)</string>
+	<key>MEMBER_SUPPORT_CHAT_CHANNEL_URL</key>
+	<string>$(MEMBER_SUPPORT_CHAT_CHANNEL_URL)</string>
+	<key>SENDBIRD_APPLICATION_ID</key>
+	<string>$(SENDBIRD_APPLICATION_ID)</string>
+	<key>SESSION_TOKEN</key>
+	<string>$(SESSION_TOKEN)</string>
+	<key>USER_ID</key>
+	<string>$(USER_ID)</string>
+</dict>
+</plist>

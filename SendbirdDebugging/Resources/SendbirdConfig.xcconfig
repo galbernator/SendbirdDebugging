@@ -1,0 +1,15 @@
+//
+//  SendbirdConfig.xcconfig
+//  SendbirdDebugging
+//
+//  Created by Steve Galbraith on 2/7/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+USER_ID = 1111111
+SENDBIRD_APPLICATION_ID = 1111111
+SESSION_TOKEN = 1111111
+COACH_CHAT_CHANNEL_URL = 1111111
+MEMBER_SUPPORT_CHAT_CHANNEL_URL = 1111111

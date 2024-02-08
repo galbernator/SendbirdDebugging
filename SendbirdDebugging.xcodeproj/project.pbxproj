@@ -8,18 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		E67949552B73EAC4006EF23E /* SendbirdDebuggingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949542B73EAC4006EF23E /* SendbirdDebuggingApp.swift */; };
-		E67949572B73EAC4006EF23E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949562B73EAC4006EF23E /* ContentView.swift */; };
 		E67949592B73EAC8006EF23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67949582B73EAC8006EF23E /* Assets.xcassets */; };
 		E679495D2B73EAC8006EF23E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E679495C2B73EAC8006EF23E /* Preview Assets.xcassets */; };
+		E67949652B73EB42006EF23E /* SendbirdChatSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E67949642B73EB42006EF23E /* SendbirdChatSDK */; };
+		E67949692B73EBD2006EF23E /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949682B73EBD2006EF23E /* ChatListView.swift */; };
+		E679496B2B73EBE7006EF23E /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E679496A2B73EBE7006EF23E /* ChatListViewModel.swift */; };
+		E679496D2B73EC0B006EF23E /* ChatListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E679496C2B73EC0B006EF23E /* ChatListCoordinator.swift */; };
+		E67949772B73EDED006EF23E /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949762B73EDED006EF23E /* ChatService.swift */; };
+		E679497A2B73F279006EF23E /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949792B73F279006EF23E /* ChatMessage.swift */; };
+		E679497C2B73F2EE006EF23E /* ChatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E679497B2B73F2EE006EF23E /* ChatChannel.swift */; };
+		E679497E2B73F465006EF23E /* ChatFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E679497D2B73F465006EF23E /* ChatFile.swift */; };
+		E67949862B73FC53006EF23E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949852B73FC53006EF23E /* Secrets.swift */; };
+		E67949882B74024A006EF23E /* EphemeralChatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949872B74024A006EF23E /* EphemeralChatChannel.swift */; };
+		E679498A2B740342006EF23E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949892B740342006EF23E /* NotificationService.swift */; };
+		E679498D2B74145F006EF23E /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E679498C2B74145F006EF23E /* ChatRow.swift */; };
+		E679498F2B74146D006EF23E /* ChatRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E679498E2B74146D006EF23E /* ChatRowViewModel.swift */; };
+		E67949942B742B15006EF23E /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67949932B742B15006EF23E /* Color+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E67949512B73EAC4006EF23E /* SendbirdDebugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendbirdDebugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67949542B73EAC4006EF23E /* SendbirdDebuggingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendbirdDebuggingApp.swift; sourceTree = "<group>"; };
-		E67949562B73EAC4006EF23E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E67949582B73EAC8006EF23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E679495A2B73EAC8006EF23E /* SendbirdDebugging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SendbirdDebugging.entitlements; sourceTree = "<group>"; };
 		E679495C2B73EAC8006EF23E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E67949682B73EBD2006EF23E /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		E679496A2B73EBE7006EF23E /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
+		E679496C2B73EC0B006EF23E /* ChatListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCoordinator.swift; sourceTree = "<group>"; };
+		E67949762B73EDED006EF23E /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		E67949792B73F279006EF23E /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		E679497B2B73F2EE006EF23E /* ChatChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatChannel.swift; sourceTree = "<group>"; };
+		E679497D2B73F465006EF23E /* ChatFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFile.swift; sourceTree = "<group>"; };
+		E679497F2B73F67D006EF23E /* SendbirdConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SendbirdConfig.xcconfig; sourceTree = "<group>"; };
+		E67949852B73FC53006EF23E /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		E67949872B74024A006EF23E /* EphemeralChatChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EphemeralChatChannel.swift; sourceTree = "<group>"; };
+		E67949892B740342006EF23E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		E679498C2B74145F006EF23E /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		E679498E2B74146D006EF23E /* ChatRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowViewModel.swift; sourceTree = "<group>"; };
+		E67949932B742B15006EF23E /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
+		E67949952B7431B7006EF23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67949652B73EB42006EF23E /* SendbirdChatSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +80,14 @@
 		E67949532B73EAC4006EF23E /* SendbirdDebugging */ = {
 			isa = PBXGroup;
 			children = (
+				E67949952B7431B7006EF23E /* Info.plist */,
+				E67949922B742B04006EF23E /* Extensions */,
+				E67949842B73FC2A006EF23E /* Helpers */,
+				E67949782B73F269006EF23E /* Models */,
+				E67949802B73F76D006EF23E /* Resources */,
+				E67949752B73EDD7006EF23E /* Services */,
+				E67949662B73EB4F006EF23E /* Views */,
 				E67949542B73EAC4006EF23E /* SendbirdDebuggingApp.swift */,
-				E67949562B73EAC4006EF23E /* ContentView.swift */,
-				E67949582B73EAC8006EF23E /* Assets.xcassets */,
 				E679495A2B73EAC8006EF23E /* SendbirdDebugging.entitlements */,
 				E679495B2B73EAC8006EF23E /* Preview Content */,
 			);
@@ -67,6 +100,79 @@
 				E679495C2B73EAC8006EF23E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E67949662B73EB4F006EF23E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E679498B2B741444006EF23E /* ChatRow */,
+				E67949672B73EB5C006EF23E /* ChatList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E67949672B73EB5C006EF23E /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				E67949682B73EBD2006EF23E /* ChatListView.swift */,
+				E679496A2B73EBE7006EF23E /* ChatListViewModel.swift */,
+				E679496C2B73EC0B006EF23E /* ChatListCoordinator.swift */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		E67949752B73EDD7006EF23E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E67949762B73EDED006EF23E /* ChatService.swift */,
+				E67949892B740342006EF23E /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E67949782B73F269006EF23E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E67949792B73F279006EF23E /* ChatMessage.swift */,
+				E679497B2B73F2EE006EF23E /* ChatChannel.swift */,
+				E679497D2B73F465006EF23E /* ChatFile.swift */,
+				E67949872B74024A006EF23E /* EphemeralChatChannel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E67949802B73F76D006EF23E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E67949582B73EAC8006EF23E /* Assets.xcassets */,
+				E679497F2B73F67D006EF23E /* SendbirdConfig.xcconfig */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E67949842B73FC2A006EF23E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E67949852B73FC53006EF23E /* Secrets.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E679498B2B741444006EF23E /* ChatRow */ = {
+			isa = PBXGroup;
+			children = (
+				E679498C2B74145F006EF23E /* ChatRow.swift */,
+				E679498E2B74146D006EF23E /* ChatRowViewModel.swift */,
+			);
+			path = ChatRow;
+			sourceTree = "<group>";
+		};
+		E67949922B742B04006EF23E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E67949932B742B15006EF23E /* Color+extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +191,9 @@
 			dependencies = (
 			);
 			name = SendbirdDebugging;
+			packageProductDependencies = (
+				E67949642B73EB42006EF23E /* SendbirdChatSDK */,
+			);
 			productName = SendbirdDebugging;
 			productReference = E67949512B73EAC4006EF23E /* SendbirdDebugging.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +222,9 @@
 				Base,
 			);
 			mainGroup = E67949482B73EAC4006EF23E;
+			packageReferences = (
+				E67949632B73EB42006EF23E /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */,
+			);
 			productRefGroup = E67949522B73EAC4006EF23E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +251,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E67949572B73EAC4006EF23E /* ContentView.swift in Sources */,
+				E67949692B73EBD2006EF23E /* ChatListView.swift in Sources */,
+				E679497C2B73F2EE006EF23E /* ChatChannel.swift in Sources */,
+				E679498A2B740342006EF23E /* NotificationService.swift in Sources */,
+				E679497A2B73F279006EF23E /* ChatMessage.swift in Sources */,
+				E679498F2B74146D006EF23E /* ChatRowViewModel.swift in Sources */,
+				E679496D2B73EC0B006EF23E /* ChatListCoordinator.swift in Sources */,
+				E67949772B73EDED006EF23E /* ChatService.swift in Sources */,
+				E679496B2B73EBE7006EF23E /* ChatListViewModel.swift in Sources */,
+				E679497E2B73F465006EF23E /* ChatFile.swift in Sources */,
+				E67949862B73FC53006EF23E /* Secrets.swift in Sources */,
 				E67949552B73EAC4006EF23E /* SendbirdDebuggingApp.swift in Sources */,
+				E67949942B742B15006EF23E /* Color+extensions.swift in Sources */,
+				E679498D2B74145F006EF23E /* ChatRow.swift in Sources */,
+				E67949882B74024A006EF23E /* EphemeralChatChannel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +273,7 @@
 /* Begin XCBuildConfiguration section */
 		E679495E2B73EAC8006EF23E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E679497F2B73F67D006EF23E /* SendbirdConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +335,7 @@
 		};
 		E679495F2B73EAC8006EF23E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E679497F2B73F67D006EF23E /* SendbirdConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -274,6 +400,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendbirdDebugging/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,7 +411,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -312,6 +439,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendbirdDebugging/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,7 +450,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -359,6 +487,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E67949632B73EB42006EF23E /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sendbird/sendbird-chat-sdk-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E67949642B73EB42006EF23E /* SendbirdChatSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E67949632B73EB42006EF23E /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */;
+			productName = SendbirdChatSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E67949492B73EAC4006EF23E /* Project object */;
 }
