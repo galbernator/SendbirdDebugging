@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sendbird-chat-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sendbird/sendbird-chat-sdk-ios.git",
+      "state" : {
+        "revision" : "2dd62c72721f33cecc45462b4075a1d3d02cd1bd",
+        "version" : "4.15.3"
+      }
+    }
+  ],
+  "version" : 2
+}
